@@ -1,0 +1,43 @@
+body{
+	position:relative;
+}
+div.red{
+	position:absolute;
+	left:25%;
+	background-color: red;
+	height:50px;
+	width:50%;
+	}
+
+div.green{
+	position: absolute;
+	top: 50px;
+	width:50%;
+	height:10px;
+	background-color:green;
+	left:25%;
+	}
+div.blue{
+	position: relative;
+	top: 60px;
+	width:15%;
+	height:100px;
+	background-color:blue;
+	left:25%;
+	}
+div.yellow{
+	position: absolute;
+	right: -133.33%;
+	top: 0px;
+	background-color:yellow;
+	width:133.33%;
+	height:100px;
+	}
+div.lightblue{
+	position: absolute;
+	background-color:lightblue;
+	width:100%;
+	height:100px;
+	top: 0px;
+	right:-233.3%;
+	}
