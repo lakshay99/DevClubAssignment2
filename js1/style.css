@@ -5,11 +5,11 @@ body{
 
 .outer{
 	background-color: coral;
-	width: 30%;
-	height: 20%;
+	width: 50%;
+	height: 50%;
 	position: absolute;
 	top: 10%;
-	left: 35%;
+	left: 25%;
 	border: 0.5px solid black;
 }
 .head{
@@ -23,7 +23,7 @@ body{
 input{
 	background-color: white;
 	width: 100%;
-	height: 15%;
+	height: 6%;
 	position: absolute;
 	left: 0%;
 	top:20%;
@@ -34,4 +34,12 @@ input{
 	position: absolute;
 	top: 40%;
 	left: 2%;
+	width: 55%;
+}
+#date{
+	position: absolute;
+	top: 40%;
+	right: 2%;
+	width: 40%;
+	font-size: 100%;
 }

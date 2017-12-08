@@ -12,6 +12,12 @@ function check(event){
 	var b=document.createTextNode(y);
 	a.appendChild(b);
 	document.getElementById("output").appendChild(a);
+	
+	var time= Date();
+	var c=document.createElement("li");
+	var d= document.createTextNode(time.substr(0,21));
+	c.appendChild(d);
+	document.getElementById("date").appendChild(c);
 	}
 }
 
