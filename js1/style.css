@@ -4,9 +4,10 @@ body{
 	}
 
 .outer{
-	background-color: coral;
+	background-color: papayawhip;
+	border-radius: 3%;
 	width: 50%;
-	height: 50%;
+	height: 70%;
 	position: absolute;
 	top: 10%;
 	left: 25%;
@@ -22,24 +23,18 @@ body{
 }
 input{
 	background-color: white;
-	width: 100%;
+	width: 90%;
 	height: 6%;
 	position: absolute;
-	left: 0%;
-	top:20%;
+	left: 1%;
+	top:10%;
 	border: none;
 	border-left: 0px solid black;
 }
 #output{
+	background-color: seashell;
 	position: absolute;
-	top: 40%;
+	top: 20%;
 	left: 2%;
-	width: 55%;
-}
-#date{
-	position: absolute;
-	top: 40%;
-	right: 2%;
-	width: 40%;
-	font-size: 100%;
+	width: 90%;
 }

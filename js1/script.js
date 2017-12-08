@@ -5,19 +5,20 @@ function check(event){
 	if(x==13){
 	y= document.getElementById("input").value;
 	document.getElementById("input").value = " " ;
-	var a=document.createElement("li");
+	var a=document.createElement("tr");
+	var b=document.createElement("td");
 	var att = document.createAttribute("onclick");       
 	att.value = "strikethrough(this)";                           
-	a.setAttributeNode(att); 
-	var b=document.createTextNode(y);
+	b.setAttributeNode(att); 
+	var c=document.createTextNode(y);
+	b.appendChild(c);
 	a.appendChild(b);
-	document.getElementById("output").appendChild(a);
-	
 	var time= Date();
-	var c=document.createElement("li");
-	var d= document.createTextNode(time.substr(0,21));
-	c.appendChild(d);
-	document.getElementById("date").appendChild(c);
+	var d=document.createElement("td");
+	var e= document.createTextNode(time.substr(0,21));
+	d.appendChild(e);
+	a.appendChild(d);
+	document.getElementById("output").appendChild(a);
 	}
 }
 
